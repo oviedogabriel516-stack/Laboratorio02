@@ -6,7 +6,7 @@
 #include "GameFramework/GameModeBase.h"
 #include "Lab02GameMode.generated.h"
 
-class AEnemigo; // Forward declaration
+class AEnemigo; 
 
 UCLASS()
 class LAB02_API ALab02GameMode : public AGameModeBase
@@ -16,17 +16,14 @@ class LAB02_API ALab02GameMode : public AGameModeBase
 protected:
 	virtual void BeginPlay() override;
 
-	// Arreglos para rastrear las cuadrillas
 	UPROPERTY()
 	TArray<AEnemigo*> Cuadrilla1;
 
 	UPROPERTY()
 	TArray<AEnemigo*> Cuadrilla2;
 
-	// Objeto TimerHandle solicitado
 	FTimerHandle TimerDesaparicion;
 
-	// Funciones de control
 	void SpawnerCuadrilla1();
 	void SpawnerCuadrilla2();
 	void EjecutarDesaparicion();

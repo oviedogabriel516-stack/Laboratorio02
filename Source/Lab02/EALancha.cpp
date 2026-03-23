@@ -12,7 +12,6 @@ AEALancha::AEALancha()
 		MallaEnemigo->SetStaticMesh(MeshAsset.Object);
 	}
 
-	// Comportamiento: Velocidad moderada
 	Amplitud = 300.0f;
 	Frecuencia = 2.0f;
 	MallaEnemigo->SetRelativeScale3D(FVector(1.5f, 0.8f, 0.8f));

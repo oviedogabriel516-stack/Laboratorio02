@@ -12,7 +12,6 @@ AEAAvion::AEAAvion()
 		MallaEnemigo->SetStaticMesh(MeshAsset.Object);
 	}
 
-	// Comportamiento: Muy rápido (Frecuencia alta)
 	Amplitud = 400.0f;
 	Frecuencia = 4.0f;
 }

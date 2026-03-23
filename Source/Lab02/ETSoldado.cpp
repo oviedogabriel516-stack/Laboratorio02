@@ -12,7 +12,6 @@ AETSoldado::AETSoldado()
 		MallaEnemigo->SetStaticMesh(MeshAsset.Object);
 	}
 
-	// Comportamiento: Movimiento rápido y corto
 	Amplitud = 100.0f;
 	Frecuencia = 4.0f;
 	MallaEnemigo->SetRelativeScale3D(FVector(0.5f, 0.5f, 0.5f));

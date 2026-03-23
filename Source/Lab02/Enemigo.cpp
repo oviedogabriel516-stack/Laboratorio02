@@ -11,7 +11,6 @@ AEnemigo::AEnemigo()
 	MallaEnemigo = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("MallaEnemigo"));
 	RootComponent = MallaEnemigo;
 
-	// CAMBIO: Ahora carga de nuevo la forma de dona (Torus)
 	static ConstructorHelpers::FObjectFinder<UStaticMesh> MallaAsset(TEXT("StaticMesh'/Game/StarterContent/Shapes/Shape_Torus.Shape_Torus'"));
 
 	if (MallaAsset.Succeeded())
@@ -19,7 +18,6 @@ AEnemigo::AEnemigo()
 		MallaEnemigo->SetStaticMesh(MallaAsset.Object);
 	}
 
-	// Mantenemos tu lógica de movimiento en el Eje Y
 	Amplitud = 300.0f;
 	Frecuencia = 2.0f;
 }
@@ -34,7 +32,6 @@ void AEnemigo::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
-	// Movimiento constante de izquierda a derecha (Eje Y)
 	FVector NuevaPosicion = GetActorLocation();
 	float Desplazamiento = FMath::Sin(GetWorld()->GetTimeSeconds() * Frecuencia) * Amplitud;
 

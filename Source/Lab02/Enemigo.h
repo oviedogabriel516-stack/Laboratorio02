@@ -17,7 +17,6 @@ public:
 	UPROPERTY(VisibleAnywhere)
 	UStaticMeshComponent* MallaEnemigo;
 
-	// Variables de movimiento constante
 	float Amplitud = 300.0f; 
 	float Frecuencia = 2.0f;
 	FVector PosicionInicial;

@@ -12,7 +12,6 @@ AEAHelicoptero::AEAHelicoptero()
 		MallaEnemigo->SetStaticMesh(MeshAsset.Object);
 	}
 
-	// Comportamiento: Balanceo constante y estable
 	Amplitud = 300.0f;
 	Frecuencia = 2.0f;
 }

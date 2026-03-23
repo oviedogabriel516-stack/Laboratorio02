@@ -12,7 +12,6 @@ AETCamion::AETCamion()
 		MallaEnemigo->SetStaticMesh(MeshAsset.Object);
 	}
 
-	// Comportamiento: Velocidad media
 	Amplitud = 300.0f;
 	Frecuencia = 1.5f;
 	MallaEnemigo->SetRelativeScale3D(FVector(2.5f, 1.0f, 1.2f));

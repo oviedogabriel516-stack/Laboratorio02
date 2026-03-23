@@ -12,9 +12,8 @@ AEABarco::AEABarco()
 		MallaEnemigo->SetStaticMesh(MeshAsset.Object);
 	}
 
-	// Comportamiento: Muy lento pero con gran recorrido
 	Amplitud = 600.0f;
 	Frecuencia = 0.5f;
-	MallaEnemigo->SetRelativeScale3D(FVector(4.0f, 1.5f, 0.8f)); // Forma alargada y baja
+	MallaEnemigo->SetRelativeScale3D(FVector(4.0f, 1.5f, 0.8f)); 
 }
 

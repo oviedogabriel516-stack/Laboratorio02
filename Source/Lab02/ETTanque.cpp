@@ -12,7 +12,6 @@ AETTanque::AETTanque()
 		MallaEnemigo->SetStaticMesh(MeshAsset.Object);
 	}
 
-	// Comportamiento: Lento y pesado
 	Amplitud = 500.0f;
 	Frecuencia = 0.8f;
 	MallaEnemigo->SetRelativeScale3D(FVector(2.0f, 1.5f, 1.0f));

@@ -12,6 +12,5 @@ class LAB02_API AEnemigoAereo : public AEnemigo
 	GENERATED_BODY()
 
 public:
-	// Solo dejamos el constructor para cambiar la forma a Cono
 	AEnemigoAereo();
 };
