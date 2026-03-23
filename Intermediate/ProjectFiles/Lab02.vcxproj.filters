@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\Lab02.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{A0549E39-830E-4519-985A-9D627A23CC73}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Lab02.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\Lab02Editor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{1923BD62-9F69-471D-8183-B1D890E06EAC}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\Lab02">
+      <UniqueIdentifier>{80711E3B-B29C-4807-BEB9-69E380FF89E8}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Lab02\EAAvion.cpp">
+      <Filter>Source\Lab02</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Lab02\EAAvion.h">
+      <Filter>Source\Lab02</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Lab02\EABarco.cpp">
+      <Filter>Source\Lab02</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Lab02\EABarco.h">
+      <Filter>Source\Lab02</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Lab02\EADron.cpp">
+      <Filter>Source\Lab02</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Lab02\EADron.h">
+      <Filter>Source\Lab02</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Lab02\EAHelicoptero.cpp">
+      <Filter>Source\Lab02</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Lab02\EAHelicoptero.h">
+      <Filter>Source\Lab02</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Lab02\EALancha.cpp">
+      <Filter>Source\Lab02</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Lab02\EALancha.h">
+      <Filter>Source\Lab02</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Lab02\EAMotoAcuatica.cpp">
+      <Filter>Source\Lab02</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Lab02\EAMotoAcuatica.h">
+      <Filter>Source\Lab02</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Lab02\Enemigo.cpp">
+      <Filter>Source\Lab02</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Lab02\Enemigo.h">
+      <Filter>Source\Lab02</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Lab02\EnemigoAcuatico.cpp">
+      <Filter>Source\Lab02</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Lab02\EnemigoAcuatico.h">
+      <Filter>Source\Lab02</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Lab02\EnemigoAereo.cpp">
+      <Filter>Source\Lab02</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Lab02\EnemigoAereo.h">
+      <Filter>Source\Lab02</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Lab02\EnemigoTerrestre.cpp">
+      <Filter>Source\Lab02</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Lab02\EnemigoTerrestre.h">
+      <Filter>Source\Lab02</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Lab02\ETBlindado.cpp">
+      <Filter>Source\Lab02</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Lab02\ETBlindado.h">
+      <Filter>Source\Lab02</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Lab02\ETCamion.cpp">
+      <Filter>Source\Lab02</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Lab02\ETCamion.h">
+      <Filter>Source\Lab02</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Lab02\ETSoldado.cpp">
+      <Filter>Source\Lab02</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Lab02\ETSoldado.h">
+      <Filter>Source\Lab02</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Lab02\ETTanque.cpp">
+      <Filter>Source\Lab02</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Lab02\ETTanque.h">
+      <Filter>Source\Lab02</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\Lab02\Lab02.Build.cs">
+      <Filter>Source\Lab02</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\Lab02\Lab02.cpp">
+      <Filter>Source\Lab02</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Lab02\Lab02.h">
+      <Filter>Source\Lab02</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Lab02\Lab02GameMode.cpp">
+      <Filter>Source\Lab02</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Lab02\Lab02GameMode.h">
+      <Filter>Source\Lab02</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Lab02\Lab02Pawn.cpp">
+      <Filter>Source\Lab02</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Lab02\Lab02Pawn.h">
+      <Filter>Source\Lab02</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Lab02\Lab02Projectile.cpp">
+      <Filter>Source\Lab02</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Lab02\Lab02Projectile.h">
+      <Filter>Source\Lab02</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

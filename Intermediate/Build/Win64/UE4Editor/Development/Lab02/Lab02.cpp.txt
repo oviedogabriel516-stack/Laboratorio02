@@ -1,0 +1,2 @@
+E:\Lab02\Lab02\Intermediate\Build\Win64\UE4Editor\Development\Lab02\Definitions.Lab02.h
+E:\Lab02\Lab02\Source\Lab02\Lab02.h

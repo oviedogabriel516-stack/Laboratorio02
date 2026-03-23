@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"E:\\Lab02\\Lab02\\Source\\Lab02\\Lab02.Build.cs",
+		"E:\\Lab02\\Lab02\\Source\\Lab02.Target.cs",
+		"E:\\Lab02\\Lab02\\Source\\Lab02Editor.Target.cs"
+	],
+	"EngineVersion": "4.27.2"
+}
